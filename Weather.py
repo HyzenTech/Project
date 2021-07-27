@@ -5,7 +5,7 @@ from datetime import datetime
 api_key = '585a96b22596d799dfa331820ff4424d'
 location = input("Enter the city name: ")
 
-complete_api_link = "https://api.openweathermap.org/data/2.5/weather?q="+location+"&appid="+api_key
+complete_api_link = "https://api.openweathermap.org/data/2.5/weather?q=Muhammad&appid=585a96b22596d799dfa331820ff4424d"
 api_link = requests.get(complete_api_link)
 api_data = api_link.json()
 
